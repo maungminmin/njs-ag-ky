@@ -14,11 +14,11 @@ const AUTO_ACCESS = process.env.AUTO_ACCESS || false;
 const FILE_PATH = process.env.FILE_PATH || './tmp';   
 const SUB_PATH = process.env.SUB_PATH || 'sub';       
 const PORT = process.env.SERVER_PORT || process.env.PORT || 3000;        
-const UUID = process.env.UUID || 'e4a05a14-fd87-466c-b507-879557c1e209'; 
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';           
-const ARGO_AUTH = process.env.ARGO_AUTH || '';               
-const ARGO_PORT = process.env.ARGO_PORT || 8005;             
-const CFIP = process.env.CFIP || '172.67.73.4';         
+const UUID = process.env.UUID || '4f720440-3c0c-4a37-92f5-44779737a553'; 
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'kob.kktmm.qzz.io';           
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiNDI0NDA1NjZjMDFiNjFhZmQyYTEzOTlmYjAwZTM1MmEiLCJ0IjoiNDdhNGViMGMtNzVhYy00ZTAwLWFjOGYtZmYxMjI2ZTdiYTFiIiwicyI6IlpEWXlPVGt6T1RJdE5HVmtZUzAwTkRNd0xUaGtaRGt0TWpGbVkySXlZVEk0WVRFMSJ9';               
+const ARGO_PORT = process.env.ARGO_PORT || 8008;             
+const CFIP = process.env.CFIP || '45.85.118.101';         
 const CFPORT = process.env.CFPORT || 443;                   
 const NAME = process.env.NAME || '';                        
 
